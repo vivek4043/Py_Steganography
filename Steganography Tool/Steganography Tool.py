@@ -40,7 +40,6 @@ def extract_message(image_path, key, progress):
         stego = ImageOps.grayscale(Image.open(image_path))
         stego_array = np.array(stego)  # Convert to NumPy array
 
-        # Initialize progress bar
         progress['maximum'] = stego_array.size
 
         # Extract the message from the image
