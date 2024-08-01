@@ -21,21 +21,30 @@ Placeholder logic for extracting the message.
 Updates the GUI with the extracted message.
 select_file(): Opens a file dialog to select an image file.
 save_file(): Opens a file dialog to save the modified image.
+
 GUI Components:
+
 Labels and Entry widgets for user inputs (key, scalar, message).
 Buttons for embedding and extracting messages.
 A Label to display the extracted message.
+
 Workflow:
+
 The user selects an image file and provides a key, scalar, and message.
 The embed_gui() function calls embed_message() to embed the message into the selected image and save it.
 The extract_gui() function calls extract_message() to extract the message from the selected image and display it in the GUI.
+
 Usage:
+
 Embedding a Message:
+
 Enter the key, scalar, and message in the respective fields.
 Click the “Embed” button.
 Select the image file to embed the message into.
 Choose the location to save the modified image.
+
 Extracting a Message:
+
 Enter the key in the respective field.
 Click the “Extract” button.
 Select the image file to extract the message from.
