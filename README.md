@@ -49,3 +49,14 @@ Enter the key in the respective field.
 Click the “Extract” button.
 Select the image file to extract the message from.
 The extracted message will be displayed in the GUI.
+
+REQUIREMENTS: 
+
+Code uses the following packages:
+
+1. os: Provides a way of using operating system-dependent functionality like reading or writing to the file system.
+2. tkinter: A standard GUI (Graphical User Interface) library in Python for creating graphical applications.
+3. ttk: A module of tkinter that provides access to the Tk themed widget set, which includes the progress bar.
+4. PIL (Pillow): A Python Imaging Library that adds image processing capabilities to your Python interpreter.
+5. numpy: A library for the Python programming language, adding support for large, multi-dimensional arrays and matrices, along with 
+   a large collection of high-level mathematical functions to operate on these arrays.
