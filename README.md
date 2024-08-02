@@ -9,7 +9,7 @@ PIL (Pillow): For image processing.
 numpy: For numerical operations on image data.
 specutils: Placeholder for spectrum-related operations (not used in the current logic).
 
-Functions:
+# Functions:
 embed_message(image_path, key, scalar, message, output_path): Embeds a message into an image.
 Converts the image to grayscale and a NumPy array.
 Placeholder logic for embedding the message.
@@ -50,7 +50,7 @@ Click the “Extract” button.
 Select the image file to extract the message from.
 The extracted message will be displayed in the GUI.
 
-REQUIREMENTS: 
+# REQUIREMENTS: 
 
 Code uses the following packages:
 
